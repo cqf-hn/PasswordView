@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PasswordView">
+        <attr name="password_viewText" format="string|reference" />
+        <attr name="password_length" format="integer" />
+        <attr name="password_itemWidth" format="dimension" />
+        <attr name="password_itemHeight" format="dimension" />
+        <attr name="password_inputBg" format="reference" />
+        <attr name="password_unInputBg" format="reference" />
+        <attr name="password_textColor" format="color" />
+        <attr name="password_textSize" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="TextImageView">
+        <attr name="text_size" format="dimension" />
+        <attr name="text_color" format="color" />
+        <attr name="text" format="string|reference" />
+        <attr name="isDrawSrc" format="boolean" />
+    </declare-styleable>
+</resources>

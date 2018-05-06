@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.cqf.hn.view.MainActivity">
+
+    <com.cqf.hn.lib.PasswordView
+        android:id="@+id/inputAuth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="37dp"
+        app:password_inputBg="@drawable/bg_change_phone_input"
+        app:password_itemHeight="35dp"
+        app:password_itemWidth="32dp"
+        app:password_length="6"
+        app:password_textColor="#333333"
+        app:password_textSize="23sp"
+        app:password_unInputBg="@drawable/bg_change_phone_un_input" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#666666"
+        android:text="点一下啦"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:background="@drawable/bg_btn_selector"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
